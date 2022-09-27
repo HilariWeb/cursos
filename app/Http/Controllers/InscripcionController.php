@@ -40,6 +40,7 @@ class InscripcionController extends Controller
         //$datosDistrital = request()->all();
         //return response()->json($datosDistrital);
 
+        $git = "prueba para github";
 
         $validatedData = $request->validate([
             'email' => 'required|unique:inscripcions|max:255',
